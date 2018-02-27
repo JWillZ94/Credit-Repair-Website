@@ -1,0 +1,26 @@
+{
+  "name": "credit-repair-website",
+  "version": "1.0.0",
+  "description": "A credit repair website where users will be able to sign up, authenticate, and store their personal information. The front-end will be made with React and the back-end will be made with Node, Express, and Mongo DB.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWillZ94/Credit-Repair-Website.git"
+  },
+  "author": "Jerel Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JWillZ94/Credit-Repair-Website/issues"
+  },
+  "homepage": "https://github.com/JWillZ94/Credit-Repair-Website#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.5.7",
+    "express": "*",
+    "mongoose": "*",
+    "passport": "*"
+  }
+}
