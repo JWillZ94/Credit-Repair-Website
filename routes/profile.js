@@ -9,8 +9,14 @@ router.get('/', (req, res) => { // Finds all profiles
     if (err) {
       throw err;
     }
-    res.json(profiles);
+    res.render('profile', {
+      profiles: profiles
+    });
   });
+});
+
+router.get('/update', (req, res) => {
+  res.render('update-profile');
 });
 
 router.get('/:id', (req, res) => { // Find profile by id
@@ -18,16 +24,7 @@ router.get('/:id', (req, res) => { // Find profile by id
     if (err) {
       throw err;
     }
-    res.json(profile);
-  });
-});
-
-router.post('/create', (req, res) => { // Creates a new profile
-  Profile.create(req.body, (err, profile) => {
-    if (err) {
-      throw err;
-    }
-    res.json(profile);
+    res.render('profile');
   });
 });
 

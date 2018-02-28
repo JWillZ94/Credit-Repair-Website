@@ -1,3 +1,52 @@
+/* PARTIALS/HEADER =========================*/
+
 body {
-  background: green;
+  background: #ffd11a;
+  margin: 0;
+}
+
+#title {
+  text-align: center;
+  font-size: 4em;
+}
+
+.menu {
+  background: white;
+  display: flex;
+  justify-content: center;
+  -webkit-padding-start: 0;
+  list-style-type: none;
+}
+
+.menu li, a {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color: gray;
+}
+
+/* INDEX =========================*/
+
+.container {
+  margin: auto;
+  max-width: 80%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1.5em;
+  justify-content: space-around;
+}
+
+section article, aside {
+  border: 1px black solid;
+}
+
+/* FOOTER =========================*/
+
+footer {
+  background: #fff;
+  text-align: center;
+  padding: 2rem;
 }

@@ -1,6 +1,6 @@
 <% include partials/header %>
 
-<form action="/sign-up" method="post">
+<form action="/profile/update" method="post">
   <div>
     <label for="username">Username: </label>
     <input type="text" name="username" value="username" required>
@@ -24,19 +24,19 @@
   <legend>Address</legend>
   <div>
     <label for="street">Street: </label>
-    <input type="text" name="address.street" value="street" required>
+    <input type="text" name="street" value="street" required>
   </div>
   <div>
     <label for="city">City: </label>
-    <input type="text" name="address.city" value="city" required>
+    <input type="text" name="city" value="city" required>
   </div>
   <div>
     <label for="state">State: </label>
-    <input type="text" name="address.state" value="state" required>
+    <input type="text" name="state" value="state" required>
   </div>
   <div>
     <label for="zip_code">Zip Code: </label>
-    <input type="number" name="address.zip_code" value="482483" required>
+    <input type="number" name="zip_code" value="482483" required>
   </div>
   <div>
     <label for="phone_number">Phone Number: </label>

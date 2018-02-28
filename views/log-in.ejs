@@ -1,0 +1,18 @@
+<% include partials/header %>
+
+<form action="/log-in" method="post">
+  <div>
+    <label for="username">Username: </label>
+    <input type="text" name="username" value="JWillZ" required>
+  </div>
+  <div>
+    <label for="password">Password: </label>
+    <input type="password" name="password" value="234yg23" required>
+  </div>
+  <div>
+    <input type="submit" name="submit" value="Submit">
+    <input type="reset" name="reset" value="Reset">
+  </div>
+</form>
+
+<% include partials/footer %>

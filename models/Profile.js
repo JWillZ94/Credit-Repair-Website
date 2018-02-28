@@ -9,11 +9,11 @@ const profileSchema = mongoose.Schema({
     type: String,
     required: true
   },
-  firstName:{
+  first_name:{
     type: String,
     required: true
   },
-  middleName: String,
+  middle_name: String,
   last_name:{
     type: String,
     required: true
@@ -31,12 +31,12 @@ const profileSchema = mongoose.Schema({
       type: String,
       required: true
     },
-    zipCode:{
+    zip_code:{
       type: Number,
       required: true
     }
   },
-  phoneNumber:{
+  phone_number:{
     type: Number,
     required: true
   },
